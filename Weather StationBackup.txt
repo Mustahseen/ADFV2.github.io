@@ -1,0 +1,36 @@
+<div class="box">
+          <h2>Weather Station</h2>
+          <div class="sales">
+            <div>
+              <!-- <h4>Current Soil Data</h4> -->
+              <h1>
+                Surface Temperature: <span id="surfacetemp"> &deg;F </span>
+                <br />
+                Temperature below surface (10 inch):
+                <span id="belowsurfacetemp"> &deg;F </span> <br />
+                Soil Moisture: <span id="soilmoisture"> % </span>
+              </h1>
+            </div>
+            <div>
+              <h4>Wind Data</h4>
+              <h1>
+                Wind Gust: <span id="windgust"></span> mph <br />
+
+                Wind angle (deg): <span id="winddeg"></span> ° <br />
+                Wind Speed: <span id="windspeed"></span> mph <br />
+              </h1>
+            </div>
+            <div>
+              <h4>Rain Forecast</h4>
+              <h1>
+                Pressure: <span id="pressurecurrent"></span> atm <br />
+                Precipitation: 0mm <br />
+                Dew Point: 3.1&deg;C
+              </h1>
+            </div>
+            <div>
+              <h4>Others</h4>
+              <h1>UV Index: <span id="uvindex"></span></h1>
+            </div>
+          </div>
+        </div>
